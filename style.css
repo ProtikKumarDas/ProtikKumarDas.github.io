@@ -1,0 +1,176 @@
+.body {
+  font-family: sans-serif;
+  font-size: medium;
+  line-height: 30px;
+}
+.copper-color {
+  color: steelblue;
+}
+
+.purple-color {
+  color: red;
+}
+.left-width {
+  width: 50%;
+  float: left;
+}
+.right-width {
+  width: 50%;
+  float: right;
+}
+.rig-width {
+  width: 50%;
+  float: right;
+}
+.intro {
+  background: url(img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bio {
+  background: url(img/biography_bg.png);
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.side-img {
+  width: 65%;
+  padding-left: 20%;
+  padding-bottom: 26%;
+}
+.logo img {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.primary-btn {
+  text-decoration: black;
+  color: white;
+  font-size: large;
+  background-image: linear-gradient(45deg, rgb(11, 0, 161), rgb(248, 0, 236));
+  border-radius: 80px;
+  padding: 15px 45px;
+  margin-left: 150px;
+  box-shadow: 0 4px 8px 0 black;
+}
+.primary-btn:hover {
+  box-shadow: 0 18px 16px 0 black;
+  transition: 0.3s;
+}
+.error {
+  background: url(img/error_pic.jpg);
+  background-size: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.topnav {
+  background-color: none;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: black;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #1ccece;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blue;
+  color: black;
+}
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+  }
+}
+/*---------navbar input------------*/
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: black;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 10;
+    padding: 14px;
+  }
+}
+
+.topnav input[type="text"] {
+  box-shadow: 0 8px 18px 0 black;
+}
+
+/*----------footer------------*/
+footer {
+  background-color: darkslategrey;
+  width: 100%;
+  height: 550px;
+  float: left;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 2.5px solid black;
+  font-size: large;
+}
+ul {
+  list-style-type: none;
+}
+.li {
+  float: left;
+  background-image: linear-gradient(45deg, lightblue, lightgreen);
+  padding: 15px 30px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px 0 black;
+}
+.li:hover {
+  background-color: violet;
+  box-shadow: 0 20px 30px 0 black;
+  transition: 0.3s;
+}
+.last {
+  font-size: large;
+  color: white;
+  float: right;
+  padding:  10px;
+  padding-top: 0px;
+  margin-top: 10px;
+  color: white;
+}
+.white-text {
+  font-size: large;
+  color: white;
+  padding: 2px 10px;
+  margin-top: 10px;
+}
+.text {
+  bottom: 0;
+  left: 0;
+  margin-top: 55%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
