@@ -146,6 +146,7 @@ ul {
   margin: 20px 20px;
   border-radius: 20px;
   box-shadow: 0 5px 15px 0 black;
+  list-style:none;
 }
 .li:hover {
   background-color: violet;
