@@ -1,1 +1,1 @@
-# protik-web
+# Simple portfolio website
